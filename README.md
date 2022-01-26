@@ -17,4 +17,10 @@ once you have completed as much of this as possible in two hours, we would reall
 * What you would do differently if you took the test again
 * Improvements to the application you can suggest that could be implemented, and an estimation of how much time they would take.
 
-Again we're not looking for perfection in this, it's to assist in capturing your thought process.  W
+Again we're not looking for perfection in this, it's to assist in capturing your thought process.
+
+# IMPORTANT NOTES
+
+Please create your own repository from this one, and push all changes to that repository.  When you have completed this test, let the person who sent you this test know and let them have the Repository link.
+
+We would be looking for these to be back to us by the end of the day 31/01/2022.  We will give feedback to all applicants on this tech test, and where relevant give you details of proceeding to the final interview.
