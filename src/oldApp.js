@@ -1,7 +1,12 @@
+/* Old React code provided by PADOQ as part of the challenge. 
+
+Kept for reference and with added annotations. Thoughts are marked with 💭 icon; ⚠️ are noteable blockers or issues.  */
+
+
 import React, { Component } from 'react';
 import './App.css';
 
-export default class App extends Component {
+export default class App extends Component { 
 
   render() {
     return (
@@ -12,6 +17,14 @@ export default class App extends Component {
     );
   }
 }
+/* above is central React component. App will compile here. 
+💭 Directly renders Todos, which itself has two dependents: Todo and AddTodo.
+
+💭 Whenever anything in the hierarchy is changed, all relevant components must re-render. 
+
+💭 line 9's "extends Component" is a quality of class-based setup. We want to make these function-based (more SOLID)
+
+💭 Similar evidence of class-based are `{Component}` on line 1 and `render()` line 11. */
 
 export class Todos extends Component {
   state = {
